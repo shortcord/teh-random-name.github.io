@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Not Found - Short Cord</title>
+	<link rel="icon" type="image/gif" href="//edge.shortcord.com/favicon.gif" />
+	<link rel="shortcut icon" href="//edge.shortcord.com/favicon.gif" />
+	<link rel="apple-touch-icon" href="//edge.shortcord.com/favicon.gif" />
+	<link rel="apple-touch-icon" sizes="76x76" href="//edge.shortcord.com/favicon.gif" />
+	<link rel="apple-touch-icon" sizes="120x120" href="//edge.shortcord.com/favicon.gif" />
+	<link rel="apple-touch-icon" sizes="152x152" href="//edge.shortcord.com/favicon.gif" />
+	<link href="//edge.shortcord.com/video-js/video-js.css" rel="stylesheet" />
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+
+		<link rel="stylesheet" href="/css/reset.css" />
+		<link rel="stylesheet" href="/css/core.css" />
+		<link rel="stylesheet" href="//edge.shortcord.com/css/nexa-font.css" />
+		<link rel="stylesheet" href="//edge.shortcord.com/fontawesome/font-awesome.css" />
+		<style>
+		body {
+			font-family: nexa_boldregular;
+			color: white;
+		}
+		#banner{
+			padding-top:20%;
+			text-align:center;
+		}
+		.center-cover,
+		.container,
+		.colourHeader{
+			-webkit-transition:all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+			transition:all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+		}
+		.center-cover{
+			padding:5px;
+			background-color: rgba(0, 0, 0, 0.25);
+		}
+		#oops {
+			text-shadow:3px 1px 10px #000;
+		}
+		.button {
+			text-shadow:3px 6px 10px #808080;
+		}
+		</style>
+</head>
+<body>
+	<section id="banner">
+		<div class="center-cover">
+			<header id="oops">Oops...</header>
+			<p><a class="button special" href="/"><i class="fa fa-long-arrow-left"></i></a></p>
+		</div>
+	</section>
+
+	<script src="//edge.shortcord.com/jquery/2.1.0.js"></script>
+	<script src="//edge.shortcord.com/js/modernizr.js"></script>
+	<script src="//edge.shortcord.com/video-js/video.js"></script>
+	<script src="//edge.shortcord.com/video-js/plugins/background.js"></script>
+	<script>
+	/*
+	if (Modernizr.video) {
+		if (Modernizr.video.webm) {
+			console.log("webm + Modernizr.video.webm");
+		} else if (Modernizr.video.ogg) {
+			console.log("ogg" + Modernizr.video.ogg);
+		} else if (Modernizr.video.h264){
+			 console.log("shitty" + Modernizr.video.h264);
+		}
+	}
+	*/
+	$(function() {
+		var BV = new $.BigVideo();
+		BV.init();
+		BV.show([
+			{ type: "video/mp4", src: "https://edge.shortcord.com/video/404/404.mp4" },
+			{ type: "video/webm", src: "https://edge.shortcord.com/video/404/404.webm" }
+		]);
+		var player = BV.getPlayer();
+		player.volume(0);
+		player.controls(false);
+		player.loop(true);
+		player.preload('auto');
+		$('.vjs-loading-spinner').remove(); //ugly, but removes the spinner for chrome
+	});
+	</script>
+</body>
+</html>

@@ -1,9 +1,2 @@
 .htaccess
 *.php
-
-# images
-*.png
-*.jpng
-*.jpg
-*.bmp
-*.gif

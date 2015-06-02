@@ -16,6 +16,8 @@
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
         <script src="js/index.js"></script>
+        <script src="//edge.shortcord.com/api/v002/frameworks/videojs/video.js"></script>
+        <script src="//edge.shortcord.com/api/v002/frameworks/videojs/plugins/background.js"></script>
 		<script type="text/javascript">
 			var _paq = _paq || [];
 			_paq.push(['trackPageView']);
@@ -28,10 +30,28 @@
 			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 		})();
 		</script>
+        <script>
+            $(function() {
+                var BV = new $.BigVideo();
+                BV.init();
+                BV.show([
+                    { type: "video/mp4", src: "https://edge.shortcord.com/video/GTA5Timelapse.mp4" },
+                    { type: "video/webm", src: "https://edge.shortcord.com/video/GTA5Timelapse.webm" }
+                ]);
+                var player = BV.getPlayer();
+                player.volume(0);
+                player.controls(false);
+                player.loop(true);
+                player.preload('auto');
+                $('.vjs-loading-spinner').remove(); //ugly, but removes the spinner for chrome
+            });
+        </script>
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/core.css" />
         <link rel="stylesheet" href="//edge.shortcord.com/css/nexa-font.css" />
+        <link rel="stylesheet" href="//edge.shortcord.com/api/v002/frameworks/videojs/video-js.css" />
         <link rel="stylesheet" href="//edge.shortcord.com/api/v002/frameworks/fontawesome/font-awesome.css" />
+		<link rel="stylesheet" href="css/steam.css" />
 		<link rel="stylesheet" href="css/index.css" />
 	</head>
 	<body>

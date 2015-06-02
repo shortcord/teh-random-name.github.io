@@ -31,7 +31,7 @@ body {
 }
 #banner:before {
     content:"";
-    background:url('https://edge.shortcord.com/img/clouds_hatsuame_original_scenic_sky_summer_2220x1373.jpg') no-repeat fixed rgb(55, 55, 55);
+    background:url('/img/above_the_lights_by_yuumei.jpg') no-repeat fixed rgb(55, 55, 55);
     background-size:cover;
     display:block;
     width:100%;

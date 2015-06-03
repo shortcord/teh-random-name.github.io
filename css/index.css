@@ -32,6 +32,7 @@ body {
 #banner:before {
     content:"";
     background:url('/img/above_the_lights_by_yuumei.jpg') no-repeat fixed rgb(55, 55, 55);
+    /*yuumei.deviantart.com*/
     background-size:cover;
     display:block;
     width:100%;
@@ -42,9 +43,11 @@ body {
     left:0px;
     right:0px;
     z-index:-1;
+    /*
     -webkit-filter:blur(10px);
     -mox-filter:blur(10px);
     -ms-filter:blur(10px);
     -o-filter:blur(10px);
     filter:blur(10px);
+    */
 }

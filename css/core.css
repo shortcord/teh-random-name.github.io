@@ -224,7 +224,7 @@ input[type="submit"].small,
 input[type="reset"].small,
 input[type="button"].small,
 .button.small {
-    font-size: 0.8em;
+    font-size: .95em;
 }
 
 input[type="submit"].big,
@@ -268,7 +268,7 @@ input[type="submit"].special,
 input[type="reset"].special,
 input[type="button"].special,
 .button.special {
-    background-color: #49bf9d;
+    background-color: rgba(0, 0, 0, 0.25);
     color: #ffffff !important;
 }
 
@@ -276,14 +276,14 @@ input[type="submit"].special:hover,
 input[type="reset"].special:hover,
 input[type="button"].special:hover,
 .button.special:hover {
-    background-color: #5cc6a7;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 input[type="submit"].special:active,
 input[type="reset"].special:active,
 input[type="button"].special:active,
 .button.special:active {
-    background-color: #3eb08f;
+    background-color: rgba(255, 255, 255, 0.40);
 }
 
 input[type="submit"].disabled, input[type="submit"]:disabled,

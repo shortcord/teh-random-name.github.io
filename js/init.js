@@ -104,8 +104,6 @@
 
 	$(function() {
 
-		// jQuery ready stuff.
-
 	});
 
 })(jQuery);

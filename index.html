@@ -1,3 +1,8 @@
+<!-- 
+    Background is from yuumei.deviantart.com
+    "Above the Lights" -- http://fav.me/d8rr0oe
+    otherwise noted; (C)2015 Megic LTD
+-->
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -6,18 +11,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="A Personal Website" />
-		<meta name="keywords" content="" />
-		<link rel="icon" type="image/gif" href="//edge.shortcord.com/favicon.gif" />
-		<link rel="shortcut icon" href="//edge.shortcord.com/favicon.gif" />
-		<link rel="apple-touch-icon" href="//edge.shortcord.com/favicon.gif" />
-		<link rel="apple-touch-icon" sizes="76x76" href="//edge.shortcord.com/favicon.gif" />
-		<link rel="apple-touch-icon" sizes="120x120" href="//edge.shortcord.com/favicon.gif" />
-		<link rel="apple-touch-icon" sizes="152x152" href="//edge.shortcord.com/favicon.gif" />
+		<meta name="keywords" content="shortcord teh-random-name tristansmith megic" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<link rel="shortcut icon" href="/favicon.png" />
+		<link rel="apple-touch-icon" href="/favicon.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="/favicon.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="/favicon.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="/favicon.png" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-        <script src="js/index.js"></script>
-        <script src="//edge.shortcord.com/api/v002/frameworks/videojs/video.js"></script>
-        <script src="//edge.shortcord.com/api/v002/frameworks/videojs/plugins/background.js"></script>
+		<script src="//edge.shortcord.com/api/v002/frameworks/jquery/2.1.0.js"></script>
+        <script src="/js/index.js"></script>
 		<script type="text/javascript">
 			var _paq = _paq || [];
 			_paq.push(['trackPageView']);
@@ -30,28 +33,10 @@
 			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 		})();
 		</script>
-        <script>
-            $(function() {
-                var BV = new $.BigVideo();
-                BV.init();
-                BV.show([
-                    { type: "video/mp4", src: "https://edge.shortcord.com/video/GTA5Timelapse.mp4" },
-                    { type: "video/webm", src: "https://edge.shortcord.com/video/GTA5Timelapse.webm" }
-                ]);
-                var player = BV.getPlayer();
-                player.volume(0);
-                player.controls(false);
-                player.loop(true);
-                player.preload('auto');
-                $('.vjs-loading-spinner').remove(); //ugly, but removes the spinner for chrome
-            });
-        </script>
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/core.css" />
         <link rel="stylesheet" href="//edge.shortcord.com/css/nexa-font.css" />
-        <link rel="stylesheet" href="//edge.shortcord.com/api/v002/frameworks/videojs/video-js.css" />
         <link rel="stylesheet" href="//edge.shortcord.com/api/v002/frameworks/fontawesome/font-awesome.css" />
-		<link rel="stylesheet" href="css/steam.css" />
 		<link rel="stylesheet" href="css/index.css" />
 	</head>
 	<body>
@@ -60,12 +45,11 @@
             <div class="center-cover">
                 <header id="hi">Hi</header>
                 <ul class="actions">
-                    <li><a target="_blank" href="//bitbucket.org/ShortCord/" class="button special">Bitbucket</a></li>
-                    <li><a target="_blank" href="//github.com/teh-random-name" class="button special">Github</a></li>
-                    <li><a target="_blank" href="//steamcommunity.com/id/shortcord/" class="button special">Steam</a></li>
-                    <li><a target="_blank" href="//osu.ppy.sh/u/3055010" class="button special">osu!</a></li>
-                    <li><a target="_blank" href="//megic.co/" class="button special">Megic</a></li>
-                    <li><a target="_blank" href="https://plus.google.com/107511601809381440678" rel="publisher" class="button special">G+</a></li>
+                    <li><a target="_blank" href="//github.com/teh-random-name" class="button small special">Github</a></li>
+                    <li><a target="_blank" href="//steamcommunity.com/profiles/76561198008513879" class="button small special">Steam</a></li>
+                    <li><a target="_blank" href="//osu.ppy.sh/u/3055010" class="button small special">osu!</a></li>
+                    <li><a target="_blank" href="//megic.co/" class="button small special">Megic</a></li>
+                    <li><a target="_blank" href="https://plus.google.com/107511601809381440678" rel="publisher" class="button small special">G+</a></li>
                 </ul>
             </div>
         </section>

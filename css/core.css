@@ -1,5 +1,9 @@
+a.cleanLink{
+    color:#4a4a4a;
+    text-decoration:none;
+}
 .clearfix{
-    background:#f6f6f6;
+    background:rgba(175, 175, 175, 0.78);
 }
 .align-center{
     text-align:center;

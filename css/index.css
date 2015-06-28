@@ -2,7 +2,9 @@ body {
     font-family: nexa_boldregular;
 }
 #banner{
-    padding-top:20%;
+    /*padding-top:20%;
+    * moved to .center-cover cause of javascript
+    */
     text-align:center;
 }
 #hi,
@@ -14,6 +16,7 @@ body {
 }
 .center-cover{
     padding:5px;
+    padding-top:20%;
 }
 #hi {
     text-shadow:3px 1px 10px #000;
@@ -29,10 +32,16 @@ body {
     -o-filter:blur(5px);
     filter:blur(5px);
 }
+body{
+    background:url('/img/above_the_lights_by_yuumei.jpg') no-repeat fixed rgb(55, 55, 55);
+    /*yuumei.deviantart.com*/
+    background-size:cover;
+    display:block;
+}
+/*
 #banner:before {
     content:"";
     background:url('/img/above_the_lights_by_yuumei.jpg') no-repeat fixed rgb(55, 55, 55);
-    /*yuumei.deviantart.com*/
     background-size:cover;
     display:block;
     width:100%;
@@ -43,11 +52,29 @@ body {
     left:0px;
     right:0px;
     z-index:-1;
-    /*
     -webkit-filter:blur(10px);
     -mox-filter:blur(10px);
     -ms-filter:blur(10px);
     -o-filter:blur(10px);
     filter:blur(10px);
-    */
+}
+*/
+.glassback {
+    padding-top:15px;
+    background-color:rgba(0, 0, 0, 0.25);
+}
+.info-bottom {
+    padding-top:25px;
+    padding-bottom:20px;
+    padding-left:5px;
+    padding-right:5px;
+    border-style: none;
+    border-radius:10px;
+    border-bottom-left-radius:0px;
+    
+    width:80%;
+    margin:auto;
+}
+.youtube-playlist {
+    margin: auto, auto;
 }

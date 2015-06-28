@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Short Cord : Music</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="A Personal Website" />
+		<meta name="keywords" content="shortcord teh-random-name tristansmith megic" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<link rel="shortcut icon" href="/favicon.png" />
+		<link rel="apple-touch-icon" href="/favicon.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="/favicon.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="/favicon.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="/favicon.png" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="//edge.shortcord.com/api/v002/frameworks/jquery/2.1.0.js"></script>
+		<script type="text/javascript">
+			var _paq = _paq || [];
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+		(function() {
+			var u="//a.shortcord.com/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', 1]);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+		</script>
+        <script>
+        function windowResize() {
+            var height = $(window).height();
+            var width = $(window).width();
+            //$('#banner').css('height', height );
+            $('#videos').css('height', height -3 );
+        }
+        $(document).ready(function () {
+            windowResize();
+
+        });
+        $(window).resize(function () { windowResize(); });
+        </script>
+        <link rel="stylesheet" href="/css/reset.css" />
+        <link rel="stylesheet" href="/css/core.css" />
+        <link rel="stylesheet" href="/css/index.css" />
+	</head>
+	<body>
+        <section id="banner">
+            <iframe id="videos"
+                width="100%"  
+                src="https://www.youtube.com/embed/videoseries?list=PLtXD2UwWBR_-t2_2UN35FchfPq1-qvMDd&modestbranding=1&loop=1&autohide=1&showinfo=0" 
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>
+        </section>
+	</body>
+</html>

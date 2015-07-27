@@ -3,7 +3,7 @@ a.cleanLink{
     text-decoration:none;
 }
 .clearfix{
-    background:rgba(175, 175, 175, 0.78);
+    background-color: rgba(237, 237, 237, 0.35);
 }
 .align-center{
     text-align:center;

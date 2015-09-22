@@ -1,6 +1,5 @@
 .htaccess
 *.php
-serverstatus.html
 # windows
 Thumbs.db
 ehthumbs.db

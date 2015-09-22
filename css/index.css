@@ -1,8 +1,18 @@
 body {
     font-family: "nexa_boldregular";
-	background:url('/img/tree2.jpg') no-repeat fixed rgb(55, 55, 55);
+	background:url('/img/tree2.jpg') no-repeat fixed #4f4f4f;
     background-size:cover;
     display:block;
+}
+#maintenance body {
+	background: #505050 !important;
+}
+small {
+	font-size: 15px;
+}
+#maintenance #hi {
+	font-family: "nexa_lightregular";
+	background: #2f2f2f;
 }
 h1 {
 	font-size: 20px;

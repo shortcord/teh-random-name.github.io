@@ -1,6 +1,6 @@
 body {
     font-family: "nexa_boldregular";
-	background:url('/img/tree2.jpg') no-repeat fixed #4f4f4f;
+	background:url('https://i.imgur.com/eubtYEf.jpg') no-repeat fixed #4f4f4f;
     background-size:cover;
     display:block;
 }
@@ -33,9 +33,9 @@ h1 {
     transition:all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 .actions {
-    background-color: rgba(237, 237, 237, 0.35);
+    /*background-color: rgba(237, 237, 237, 0.35);*/
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 .center-cover{
     padding-top:20%;
@@ -66,4 +66,7 @@ h1,
 }
 .youtube-playlist {
     margin: auto, auto;
+}
+#tray {
+	display: none;
 }

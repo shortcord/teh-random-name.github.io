@@ -1,6 +1,6 @@
 body {
     font-family: "nexa_boldregular";
-	background:url('https://i.imgur.com/eubtYEf.jpg') no-repeat fixed #4f4f4f;
+	background:url('https://i.imgur.com/WGQQiau.jpg') no-repeat fixed #4f4f4f;
     background-size:cover;
     display:block;
 }
@@ -75,4 +75,32 @@ h1,
 }
 #tray {
 	display: none;
+}
+
+div .small-header header {
+	font-size: 40px;
+	color: #DDD;
+}
+
+/*me page*/
+#me .center-cover {
+	padding-top: 5%;
+}
+
+/*404 Error page*/
+#notfound #banner{
+	font-family: "nexa_lightregular";
+	padding-top:20%;
+	text-align:center;
+	color: #fff;
+}
+#notfound .center-cover{
+	padding:5px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+#notfound .center-cover > header {
+	text-shadow:3px 1px 10px #000;
+}
+#notfound .button {
+	text-shadow:3px 6px 10px #808080;
 }

@@ -1,110 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 body {
-  font-family: "Quicksand", "Segoe UI", sans-serif;
-  background:url('https://i.imgur.com/WGQQiau.jpg') no-repeat fixed #4f4f4f;
-  background-size:cover;
-  display:block;
+    font-family: "Raleway", sans-serif;
+    background: url('/img/sky.jpg') no-repeat fixed #4f4f4f;
+    background-size: cover;
+    display: block;
 }
-
-#maintenance body {
-	background: #505050 !important;
-}
-
 small {
-	font-size: 15px;
+    font-size: 15px;
 }
-
-#maintenance #hi {
-	font-family: "Quicksand", "Segoe UI", sans-serif;
-	background: #2f2f2f;
-	color: #fff;
-}
-
 h1 {
-	font-size: 20px;
-	color: #fff;
+    font-size: 20px;
+    color: #fff;
 }
-
-#banner{
-  text-align:center;
+#banner {
+    text-align: center;
 }
-
 #hi,
-.center-cover,
 .container,
-.colourHeader{
-  -webkit-transition:all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition:all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+.colourHeader {
+    -webkit-transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
-
 .actions {
-  /*background-color: rgba(237, 237, 237, 0.35);*/
-  padding-top: 10px;
-  padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
-.center-cover{
-  padding-top:20%;
+.center-cover {
+    padding-top: 20%;
 }
-
 h1,
 #hi,
 #jsQuote {
-  text-shadow:3px 1px 10px #000;
-  width: 100%;
+    text-shadow: 3px 1px 10px #000;
+    width: 100%;
 }
-
 #jsQuote {
-	text-align: center;
-	color: #ffffff;
+    text-align: center;
+    color: #ffffff;
 }
-
 .button {
-  text-shadow:3px 6px 10px #808080;
+    text-shadow: 3px 6px 10px #808080;
 }
-
 .glassback {
-  padding-top:15px;
-  background-color:rgba(0, 0, 0, 0.25);
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.25);
 }
-
 .info-bottom {
-  padding-top:25px;
-  padding-bottom:20px;
-  padding-left:5px;
-  padding-right:5px;
-  border-style: none;
-  border-radius:10px;
-  border-bottom-left-radius:0px;
-  border-bottom-right-radius: 0px;
-  width:80%;
-  margin:auto;
-  text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: none;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
-
 div .small-header header {
-	font-size: 40px;
-	color: #DDD;
+    font-size: 40px;
+    color: #DDD;
 }
 
-/*me page*/
-#me .center-cover {
-	padding-top: 5%;
+/*down.html*/
+#maintenance #hi {
+    background: rgba(47, 47, 47, 0.34);
+    color: #fff;
 }
 
-/*404 Error page*/
-#notfound #banner{
-	font-family: "Quicksand", "Segoe UI", sans-serif;
-	padding-top:20%;
-	text-align:center;
-	color: #fff;
+/*404.html*/
+#notfound #banner {
+    padding-top: 20%;
+    text-align: center;
+    color: #fff;
 }
-#notfound .center-cover{
-	padding:5px;
-	background-color: rgba(0, 0, 0, 0.25);
+#notfound .center-cover {
+    padding: 5px;
 }
 #notfound .center-cover > header {
-	text-shadow:3px 1px 10px #000;
+    text-shadow: 3px 1px 10px #000;
 }
 #notfound .button {
-	text-shadow:3px 6px 10px #808080;
+    text-shadow: 3px 6px 10px #808080;
 }

@@ -1,0 +1,65 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Hey there, this signed message is to help verify what PGP keys I use.
+I may contact you via Email or some other encryptable service that uses PGP keys.
+I'll attempt, with my best ability, to sign/encrypt messages sent with said service with the following keys:
+
+- - 6DB072DEFFD7D14C9EFD33B6BC67C1BB0C3E0578 [6DB0 72DE FFD7 D14C 9EFD  33B6 BC67 C1BB 0C3E 0578]
+- - A640EBC9FF74EBA6C77427F710BD1538F39C3AD6 [A640 EBC9 FF74 EBA6 C774  27F7 10BD 1538 F39C 3AD6]
+- - 71E853893436E7F6CB3D7DEB8CAE84DB8CED6D3D [71E8 5389 3436 E7F6 CB3D  7DEB 8CAE 84DB 8CED 6D3D]
+
+Additionally, I package some software and publish them to private access repos.
+If you are provided access to these repos/packages then the following keys are used for signing:
+
+- - 19AD447BD0827A142A0FB57F84BD5723FBDAE2D0 [19AD 447B D082 7A14 2A0F  B57F 84BD 5723 FBDA E2D0]
+
+All the keys listed are available on keys.openpgp.org and my website, though it is preferred to use openpgp.org.
+
+- ---
+
+This message is signed with all keys listed above, you can verify it using any one of those keys, or
+all of them.
+
+~ Short
+-----BEGIN PGP SIGNATURE-----
+
+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
+eW9CTo9MmMCncKungFUmIGo7lEkp5BU/
+=uHO9
+-----END PGP SIGNATURE-----

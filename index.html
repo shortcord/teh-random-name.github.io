@@ -16,8 +16,8 @@
 	<link rel="apple-touch-icon" sizes="120x120" href="/img/pfp.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="/img/pfp.png">
 
-	<link rel="stylesheet" href="/third-party/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/third-party/bootstrap-icons-1.10.3/bootstrap-icons.css">
+	<link rel="stylesheet" href="/third-party/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/third-party/bootstrap-icons/bootstrap-icons.css">
 	<style>
 		body {
 			background: no-repeat fixed #4f4f4f;
@@ -25,6 +25,7 @@
 			background-size: cover;
 		}
 	</style>
+	<script src="/third-party/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body class="h-100 text-white">
@@ -36,33 +37,87 @@
 						class="rounded-circle" />
 					<h1 class="text-white">Short Cord</h1>
 					<div class="row">
-						<div class="col-12">
-							Transfem Systems Administrator
+						<div class="col-12 text-muted">
+							<a target="_blank" class="link-underline-opacity-0 link-underline-light" href="https://pronouns.page/@short_cord">Transfem</a> Systems Administrator
 						</div>
 					</div>
 				</div>
 			</div>
 			<hr class="mt-3 mb-3" />
 			<div class="col-12 d-inline-flex justify-content-center">
-				<div class="btn-group" role="group">
-					<a target="_blank" href="https://gitlab.shortcord.com/shortcord" class="btn btn-outline-light"><i
-							class="bi bi-git"></i></a>
-					<a target="_blank" href="https://github.com/teh-random-name" class="btn btn-outline-light"><i
-							class="bi bi-github"></i></a>
-					<a target="_blank" href="https://girldick.gay/@shortcord" rel="me" class="btn btn-outline-light"><i
-							class="bi bi-mastodon"></i></a>
-					<a target="_blank" href="https://twitter.com/short_cord" class="btn btn-outline-light"><i
-							class="bi bi-twitter"></i></a>
-					<a target="_blank" href="https://www.linkedin.com/in/tristan-smith-27b28895/"
-						class="btn btn-outline-light"><i class="bi bi-linkedin"></i></a>
-					<a target="_blank" href="https://steamcommunity.com/id/ShortCord" class="btn btn-outline-light"><i
-							class="bi bi-steam"></i></a>
-					<a target="_blank" href="https://www.twitch.tv/short_cord" class="btn btn-outline-light"><i
-							class="bi bi-twitch"></i></a>
-				</div>
+				<a href="#content" class="btn btn-outline-light"><i class="bi bi-arrow-bar-down"></i></a>
 			</div>
 		</div>
 	</main>
+	<div id="content" class="container pb-3">
+		<div class="card bg-dark bg-gradient" style="--bs-bg-opacity: .8; min-height: 140px;">
+			<div class="card-body">
+				<ul class="nav nav-tabs d-flex justify-content-center" data-bs-theme="dark" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="nav-link active" id="links-tab" data-bs-toggle="tab"
+							data-bs-target="#links-tab-pane" type="button" role="tab">Links</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="crypto-identity-tab" data-bs-toggle="tab"
+							data-bs-target="#crypto-identity-tab-pane" type="button" role="tab">Crypto Identity</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+							data-bs-target="#contact-tab-pane" type="button" role="tab">Contact</button>
+					</li>
+				</ul>
+				<div class="tab-content d-flex justify-content-center pt-3" id="myTabContent">
+					<div class="tab-pane fade show active" id="links-tab-pane" role="tabpanel" tabindex="0">
+						<div class="btn-group" role="group">
+							<a target="_blank" href="https://gitlab.shortcord.com/shortcord"
+								class="btn btn-outline-light"><i class="bi bi-git"></i> Gitlab</a>
+							<a target="_blank" href="https://github.com/teh-random-name"
+								class="btn btn-outline-light"><i class="bi bi-github"></i> Github</a>
+							<a target="_blank" href="https://girldick.gay/@shortcord" rel="me"
+								class="btn btn-outline-light"><i class="bi bi-mastodon"></i> Mastodon</a>
+							<a target="_blank" href="https://twitter.com/short_cord" class="btn btn-outline-light"><i
+									class="bi bi-twitter"></i> Twitter</a>
+							<a target="_blank" href="https://www.linkedin.com/in/tristan-smith-27b28895/"
+								class="btn btn-outline-light"><i class="bi bi-linkedin"></i> LinkedIn</a>
+							<a target="_blank" href="https://steamcommunity.com/id/ShortCord"
+								class="btn btn-outline-light"><i class="bi bi-steam"></i> Steam</a>
+							<a target="_blank" href="https://www.twitch.tv/short_cord" class="btn btn-outline-light"><i
+									class="bi bi-twitch"></i> Twitch</a>
+						</div>
+					</div>
+					<div class="tab-pane fade text-white" id="crypto-identity-tab-pane" role="tabpanel" tabindex="0">
+						<p>Hey there, this signed message is to help verify what PGP keys I use.<br>
+						I may contact you via Email or some other encryptable service that uses PGP keys.<br>
+						I'll attempt, with my best ability, to sign/encrypt messages sent with said service with the following keys:</p>
+
+						<ul>
+							<li>6DB072DEFFD7D14C9EFD33B6BC67C1BB0C3E0578 [6DB0 72DE FFD7 D14C 9EFD  33B6 BC67 C1BB 0C3E 0578]</li>
+							<li>A640EBC9FF74EBA6C77427F710BD1538F39C3AD6 [A640 EBC9 FF74 EBA6 C774  27F7 10BD 1538 F39C 3AD6]</li>
+							<li>71E853893436E7F6CB3D7DEB8CAE84DB8CED6D3D [71E8 5389 3436 E7F6 CB3D  7DEB 8CAE 84DB 8CED 6D3D]</li>
+						</ul>
+
+						<p>Additionally, I package some software and publish them to private access repos.<br>
+						If you are provided access to these repos/packages then the following keys are used for signing:</p>
+
+						<ul>
+							<li>19AD447BD0827A142A0FB57F84BD5723FBDAE2D0 [19AD 447B D082 7A14 2A0F  B57F 84BD 5723 FBDA E2D0]</li>
+						</ul>
+
+						<p>All the keys listed are available on <a class="link-underline-opacity-0 link-underline-light" target="_blank" href="https://keys.openpgp.org/">keys.openpgp.org</a> and my website, though it is preferred to use openpgp.org.</p>
+
+						<hr>
+
+						<p>You can verify this message by downloading the otr file.</p>
+						<code>curl https://shortcord.com/otr | gpg --verify - </code>
+					</div>
+					<div class="tab-pane fade text-white" id="contact-tab-pane" role="tabpanel" tabindex="0">
+						<p>You can contact me via email at <a class="link-underline-opacity-0 link-underline-light" href="mailto:short@shortcord.com">short@shortcord.com</a> or via XMPP at <a class="link-underline-opacity-0 link-underline-light" href="xmpp://short@mousetail.dev">short@mousetail.dev</a></p>
+						<p>Outside of that, I'm quite active on Mastodon and Discord (Short Cord#0069)</p> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
